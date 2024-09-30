@@ -1,0 +1,46 @@
+/* STUDENT: KAMRON DILLON */
+
+/* custom property */
+:root {
+	/* NOTE: The variable name MUST start with two dashes
+	   https://www.w3schools.com/css/css3_variables.asp	*/
+	--global-color-1: #800000;
+}
+
+/* ELEMENT styles for the elements */
+body { background-color:#90EE90; font-family: Arial, Helvetica, sans-serif; font-size: 100%; }
+/*a:focus, a:hover { font-style: italic; }
+.shadow {	text-shadow: 2px 3px 5px var(--global-color-1); }*/
+
+header {background-color:#C4A484;}
+
+/* NAV styles for the header */
+nav > ul {line-height:2em;
+	list-style-type: none;
+	padding-left:5px;}
+
+/* SECTION styles for the header */
+section {background-color: #D3D3D3;
+	width:75%
+	font-size: 1.2em;
+}
+
+
+ h2 {	font-size: 170%;	color: var(--global-color-1);	text-indent: 30px; }
+header h3 {	font-size: 130%;	font-style: italic;	text-indent: 30px; }
+header img { float: left; }
+
+
+/* HEADER styles for the header */
+header h2 {	font-size: 170%;	color: var(--global-color-1);	text-indent: 30px; }
+header h3 {	font-size: 130%;	font-style: italic;	text-indent: 30px; }
+header img { float: left; }
+
+/* MAIN styles for the main content */
+main { clear: left; }
+main h1  { font-size: 150%; }
+main h3  { font-size: 105%; }
+
+/* FOOTER styles for the footer */
+footer {background-color: #C4A484;}
+footer p { text-align: center; }
